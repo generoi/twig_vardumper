@@ -24,7 +24,6 @@ class TwigExtension extends \Twig_Extension {
     ];
   }
 
-
   /**
    * {@inheritdoc}
    */
@@ -36,9 +35,11 @@ class TwigExtension extends \Twig_Extension {
    * Dumps information about variables.
    *
    * @param \Twig_Environment $env
-   * @param $context
+   *   Enviroment values.
+   * @param array $context
+   *   Context values.
    */
-  public function drupalDump(\Twig_Environment $env, $context) {
+  public function drupalDump(\Twig_Environment $env, array $context) {
 
     if (!$env->isDebug()) {
       return;
