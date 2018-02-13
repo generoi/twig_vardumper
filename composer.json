@@ -1,5 +1,5 @@
 {
-  "name": "drupal/twig_vardumper",
+  "name": "generoi/twig_vardumper",
   "type": "drupal-module",
   "description": "Twig vardumper provides a better dump() and vardumper() function that can help you debug Twig variables.",
   "keywords": ["Drupal", "Twig", "Development"],
